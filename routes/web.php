@@ -28,3 +28,7 @@ Route::get('/world', function () {
 Route::get('/about', function () {
     return '2341760031_Meisy Nadia Nababan';
 });
+
+Route::get('/user/{name}', function ($name) {
+    return 'Nama Saya '.$name;
+});
