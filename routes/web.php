@@ -32,7 +32,7 @@ Route::get('/world', function () {
 });
 
 Route::get('/about', function () {
-    return '2341760043_Aprilia Putri Anggraeni';
+    return '2341760043_MeisyNadiaNababan';
 });
 
 Route::get('/user/{name}', function ($name) {
